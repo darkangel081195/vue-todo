@@ -5,6 +5,7 @@
 
     <Add @add-todo = "add" />
 
+    <button class="delete" @click = "deleteAll">Delete All</button>
     <div class="container">
       <div class="pending">
         <h2>Pending</h2>
@@ -49,6 +50,11 @@ export default {
     //Deleting todo from the list
     deleteTodo(id){
       this.todoList = this.todoList.filter(data => data.id !== id);
+    },
+
+    //Deleting All Todos from the list
+    deleteAll(){
+      this.todoList = [];
     }
   },
   computed:{
@@ -91,5 +97,19 @@ export default {
 
   img{
     height:100px;
+  }
+
+  .delete{
+    background-color : #F56C6C;
+    color:white;
+    padding:10px;
+    border-radius:4px;
+    outline: none;
+    border : 1px solid #F56C6C;
+    cursor:pointer;
+  }
+
+  .delete:hover{
+    background-color : #f15757;
   }
 </style>
