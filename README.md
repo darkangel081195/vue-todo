@@ -20,5 +20,12 @@ npm run build
 npm run lint
 ```
 
+```json
+{
+  "key1":"val1", // Test
+  "key2": "val2"
+}
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
