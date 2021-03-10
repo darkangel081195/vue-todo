@@ -20,7 +20,7 @@ npm run build
 npm run lint
 ```
 
-```Perl
+```yaml
 {
   "key1":"val1", // Test
   "key2": "val2"
