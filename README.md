@@ -23,7 +23,7 @@ npm run lint
 ```yaml
 {
   "key1":"val1", // Test
-  "key2": "val2"
+  "key2": "val2",
 }
 ```
 
