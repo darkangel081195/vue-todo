@@ -20,7 +20,7 @@ npm run build
 npm run lint
 ```
 
-```vue
+```jsx
 {
   "key1":"val1", // Test
   "key2": "val2",
